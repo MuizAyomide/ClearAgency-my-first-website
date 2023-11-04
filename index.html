@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>ClearAgency</title>
+</head>
+
+<body>
+
+    <section class="header-section">
+        <img class="img1" src="image/pattern4.png" alt="">
+        <img class="img2" src="image/pattern2.png" alt="">
+        <img class="img3" src="image/pattern4.png" alt="">
+        <nav>
+            <div class="logo">
+                <h3>ClearAgency</h3>
+            </div>
+            <div class="icon">
+                <div class="nav-list" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">About us</a></li>
+                        <li><a href="index.html">Services</a></li>
+                        <li><a href="index.html">Our Work</a></li>
+                        <button class="contact-btn">Contact us</button>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+        </nav>
+        <div class="text-img">
+            <div class="text">
+                <div class="box1"></div>
+                <div class="box2"></div>
+                <div class="box3"></div>
+                <p><span> OUR GOAL </span></p>
+                <h1>Better Products
+                    <br> for your users
+                </h1>
+                <p>We help our clients realize thier most important
+                    <br> business goals
+                </p>
+                <div class="hero-btn">
+                    <button class="btn1">GET IN TOUCH</button>
+                    <button class="btn2">WATCH VIDEO <i class="fa fa-play"></i></button>
+                </div>
+            </div>
+
+            <img src="image/image1.jpg" alt="Hero section image.">
+        </div>
+
+    </section>
+
+    <!-- -----------------section2--------------- -->
+
+    <section class="second-section">
+        <div class="textandbox">
+            <div class="textbox">
+                <div class="box1"></div>
+                <div class="box2"></div>
+                <p>WE HELP WITH</p>
+                <h2> Building<br>better<br>solutions </h2>
+                <button class="services-btn">OUR SERVICES <i class="fa fa-arrow-right"></i></button>
+            </div>
+            <div class="box-container">
+                <div class="box1and2">
+                    <div class="box box1">
+                        <i class="fa fa-check-square-o"></i>
+                        <h3>Design</h3>
+                        <p>We make clean and cool designs that makes your clients go gaga when they see them.</p>
+                    </div>
+                    <div class="box box2">
+                        <i class="fa fa-calculator"></i>
+                        <h3>Development</h3>
+                        <p>We develop clean and nest designs when needed by your clients, then you don't need to worry
+                        </p>
+                    </div>
+                </div>
+                <div class="box3and4">
+                    <div class="box box3">
+                        <i class="fa fa-briefcase"></i>
+                        <h3>Project Management</h3>
+                        <p>We make clean and cool designs that makes your clients go gaga when they see them.
+                            we also manage projects.
+                        </p>
+                    </div>
+                    <div class="box box4">
+                        <i class="fa fa-binoculars"></i>
+                        <h3>Testing & QA</h3>
+                        <p>We make clean and cool designs that makes your clients go gaga when they see them,
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------------section3--------------- -->
+    <section class="third-section">
+        <div class="imgandtext1">
+            <img src="image/image5.jpg" alt="">
+            <div class="txt">
+                <H2>Design solutions <br>
+                    to improve Products</H2>
+                <p>We help our clients make the most important business goals,<br>
+                    We help our clients make the most important <br>business goals,
+                    We help our clients make the most important business goals.
+                    We help our clients make the most important <br>business goals</p>
+                <button>KNOW MORE <i class="fa fa-arrow-right"></i></button>
+            </div>
+        </div>
+        <div class="imgandtext2">
+            <div class="txt">
+                <H2>Design solutions <br>
+                    to improve Products</H2>
+                <p>We help our clients make the most important business goals,<br>
+                    We help our clients make the most important <br>business goals,
+                    We help our clients make the most important business goals.
+                    We help our clients make the most important <br>business goals</p>
+                <button>KNOW MORE <i class="fa fa-arrow-right"></i></button>
+            </div>
+            <img src="image/image3.jpg" alt="">
+
+        </div>
+        </div>
+    </section>
+    <!-- -----------------section4--------------- -->
+    <section class="forth-section">
+        <div class="all">
+           
+                <p>PORTFOLIO</p>
+                <h1>Projects we love</h1>
+           
+            <div class="images">
+            <img src="image/image6.jpg" alt="">
+            <img src="image/image2.jpg" alt="">
+            <img src="image/image3.jpg" alt="">
+            <img src="image/image4.jpg" alt="">
+            <img src="image/image6.jpg" alt="">
+            <img src="image/image2.jpg" alt="">
+            <img src="image/image3.jpg" alt="">
+            <img src="image/image4.jpg" alt="">
+        </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+       
+    </section>
+
+    <!-- ---------Javascript---------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0px";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+            console.log("shsvhua");
+        }
+    </script>
+
+
+
+</body>
+
+</html>
